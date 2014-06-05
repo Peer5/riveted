@@ -4,8 +4,8 @@
  * Copyright (c) 2014 Rob Flaherty (@robflaherty)
  * Licensed under the MIT license
  */
-
-var riveted = (function() {
+!function () {
+  peer5.riveted = (function() {
 
     var started = false,
       stopped = false,
@@ -231,3 +231,4 @@ var riveted = (function() {
     };
 
   })();
+}();
